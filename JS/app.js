@@ -5,9 +5,6 @@ console.log(pMessage);
 
 let button = document.getElementById("hereButton"); // IdName
 
-let title = document.querySelector("h1");
-
-let paragraph = document.querySelector("p");
 
 // Text from an input box
 let textBox = document.getElementById("num");
@@ -42,7 +39,6 @@ button.addEventListener("click", () => {
     } else  {
          pMessage.innerText = "You are a minor. Leave.";
     }
-    title.style.fontSize = "50px";
     
     return textBox.value;
   
