@@ -1,0 +1,28 @@
+.body {
+    background-color: rgb(107, 181, 255);
+}
+
+#clearButton {
+    border-radius: 6px;
+}
+
+#clearButton:hover {
+    background-color: azure;
+}
+
+#hereButton {
+    background-color: rgb(185, 255, 255);
+    border-radius: 6px;
+}
+
+#hereButton:hover {
+    background-color: rgb(146, 255, 255);
+}
+
+.age {
+    background-color: rgb(254, 233, 190);
+}
+
+.age:hover {
+    background-color: rgb(255, 227, 172);
+}
